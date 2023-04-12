@@ -1,6 +1,6 @@
 from tkinter import *
 import pyshorteners
-
+#Defining shortener function
 def shorten_url():
     if short_entry.get():
         short_entry.delete(0,END)
@@ -27,7 +27,7 @@ short_url_label.pack()
 short_entry = Entry(root,justify=CENTER,bd=2,width=30,font="Arial 18",fg="blue")
 short_entry.pack(pady=20)
 
-quitButton=Button(text="Press to quit GUI",command=quit,bg="red",fg="white",height=1,font="Arial 10")
+quitButton=Button(text="Press to Quit GUI",command=quit,bg="red",fg="white",height=1,font="Arial 10")
 quitButton.pack(side=BOTTOM)
 
 

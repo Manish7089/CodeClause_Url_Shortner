@@ -1,2 +1,2 @@
-# CodeClause_Url_Shortner
-A url shortner project by pyhton
+# CodeClause_Url_Shortener
+A url shortener project by Manish Bala with the help of pyshortener and tkinter libraries..
